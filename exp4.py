@@ -3,6 +3,8 @@ def readline(filename):
     file=open(filename,'r')
     filedata=reader(file)
     count=0
-    for row in filedata:
+    lines=''
+    for line in filedata:
         count+=1
+        lines+=' '+line
     print(count)
