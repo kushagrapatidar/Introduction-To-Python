@@ -10,7 +10,12 @@
 # from exp3 import exchange
 # exchange()
 
-#exp4
-from exp4 import readline
+# #exp4
+# from exp4 import readline
+# filename=input('Enter the name of the file with extension: ')
+# readline(filename)
+
+#exp5
+from exp5 import getsize
 filename=input('Enter the name of the file with extension: ')
-readline(filename)
+size=getsize(filename)

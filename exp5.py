@@ -1,4 +1,4 @@
-def readline(filename):
+def getsize(filename):
     file=open(filename,'r')
     filedata=file.readlines()
     count=0
@@ -6,5 +6,5 @@ def readline(filename):
     for line in filedata:
         count+=1
         lines+=line
-    print(f'Number of lines: {count}')
-    print(lines)
+        
+    return len(lines)+49
