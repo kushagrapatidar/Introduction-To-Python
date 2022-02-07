@@ -41,8 +41,10 @@
 # binary_search()
 
 #exp9
-# from exp9 import binary_search
-# binary_search()
+# from exp9 import square_sum
+# n=int(input('Enter the number: '))
+# Square_sum=square_sum(n)
+# print(f"Sum of Squares of first {n} natural numbers is: {Square_sum}")
 
 #exp10
 # from exp10 import binary_search
