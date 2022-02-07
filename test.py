@@ -36,6 +36,42 @@
 # num=int(input('Enter the number: '))
 # fibonacci(num)
 
-#exp7
-from exp8 import binary_search
-binary_search()
+#exp8
+# from exp8 import binary_search
+# binary_search()
+
+#exp9
+# from exp9 import binary_search
+# binary_search()
+
+#exp10
+# from exp10 import binary_search
+# binary_search()
+
+#exp11
+# from exp11 import binary_search
+# binary_search()
+
+#exp12
+# from exp12 import binary_search
+# binary_search()
+
+#exp13
+# from exp13 import binary_search
+# binary_search()
+
+#exp14
+# from exp14 import binary_search
+# binary_search()
+
+#exp15
+# from exp15 import binary_search
+# binary_search()
+
+#exp16
+# from exp16 import binary_search
+# binary_search()
+
+#exp17
+# from exp17 import binary_search
+# binary_search()
