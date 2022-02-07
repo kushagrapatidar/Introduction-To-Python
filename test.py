@@ -55,13 +55,14 @@
 # filename=input('Enter the name of the file with extension: ')
 # readcharacters(filename)
 
-#exp12
-# from exp12 import binary_search
-# binary_search()
+#exp12 Doubt..
+# from exp12 import custom_font
+# custom_font()
 
 #exp13
-# from exp13 import binary_search
-# binary_search()
+# from exp13 import even_length_words
+# string=input('Enter the string: ')
+# even_length_words(string)
 
 #exp14
 # from exp14 import binary_search
