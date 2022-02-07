@@ -16,9 +16,14 @@
 # readline(filename)
 
 #exp5
-from exp5 import getsize
-filename=input('Enter the name of the file with extension: ')
-size=getsize(filename)
+# from exp5 import getsize
+# filename=input('Enter the name of the file with extension: ')
+# size=getsize(filename)
+# #CrossChecking:
+# import os
+ 
+# file_size = os.path.getsize(filename)
+# print(f"Cross-Checking by OS library:\nFile Size is : {file_size} bytes")
 
 #exp6
 # from exp6 import factorial
@@ -30,3 +35,7 @@ size=getsize(filename)
 # from exp7 import fibonacci
 # num=int(input('Enter the number: '))
 # fibonacci(num)
+
+#exp7
+from exp8 import binary_search
+binary_search()
