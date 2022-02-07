@@ -6,5 +6,5 @@ def getsize(filename):
     for line in filedata:
         count+=1
         lines+=line
-        
-    return len(lines)+49
+    print(f'Number of lines: {count}')
+    return 0
