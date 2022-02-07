@@ -6,5 +6,4 @@ def readline(filename):
     for line in filedata:
         count+=1
         lines+=line
-    print(f'Number of lines: {count}')
     print(lines)

@@ -47,12 +47,13 @@
 # print(f"Sum of Squares of first {n} natural numbers is: {Square_sum}")
 
 #exp10
-# from exp10 import binary_search
-# binary_search()
+# from exp10 import array_sum
+# array_sum()
 
 #exp11
-# from exp11 import binary_search
-# binary_search()
+# from exp11 import readcharacters
+# filename=input('Enter the name of the file with extension: ')
+# readcharacters(filename)
 
 #exp12
 # from exp12 import binary_search
