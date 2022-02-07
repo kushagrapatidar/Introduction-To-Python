@@ -16,14 +16,15 @@
 # readline(filename)
 
 #exp5
-# from exp5 import getsize
-# filename=input('Enter the name of the file with extension: ')
-# size=getsize(filename)
+from exp5 import getsize
+filename=input('Enter the name of the file with extension: ')
+size=getsize(filename)
 
 #exp6
-from exp7 import factorial
-num=int(input('Enter the number: '))
-size=factorial(num)
+# from exp6 import factorial
+# num=int(input('Enter the number: '))
+# Factorial=factorial(num)
+# print(Factorial)
 
 #exp7
 # from exp7 import fibonacci

@@ -1,6 +1,4 @@
-def factorial(n,a=0,b=1):
-    if b<=n:
-        print(b,end=" ")
-        a=b+a
-        a,b=b,a
-        factorial(n,a,b)
+def factorial(n):
+    if n>0:
+        return n*factorial(n-1)
+    return 1
