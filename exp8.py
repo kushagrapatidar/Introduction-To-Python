@@ -1,16 +1,16 @@
-def binarysearch(arr,s,e,n):
-    if n>arr[-1] or n<arr[0]:
+def binarysearch(arr,s,e,x):
+    if x>arr[-1] or x<arr[0]:
         return 0
-    
-    mid=s+(e-s)//2
-    if n==arr[mid]:
-        return mid+1
-    elif n<arr[mid]:
-        e=mid-1
-        return binarysearch(arr,s,e,n)
-    elif n>arr[mid]:
-        s=mid+1
-        return binarysearch(arr,s,e,n)
+    i=s+(e-s)//2
+    if arr[i]==x:
+        return i+1
+    elif arr[i]<x:
+        s=i+1
+        return binarysearch(arr,s,e,x)
+    else:
+        e=i-1
+        return binarysearch(arr,s,e,x)
+
     
 def binary_search():
     arr=input('Enter the elements of array with spaces: ').split()
