@@ -65,16 +65,20 @@
 # even_length_words(string)
 
 #exp14
-# from exp14 import binary_search
-# binary_search()
+# from exp14 import ispalindrome
+# string=input('Enter the string: ')
+# ispalindrome(string)
 
 #exp15
-# from exp15 import binary_search
-# binary_search()
+# from exp15 import ascii_val
+# char=input('Enter the string: ')
+# ascii_val(char)
 
 #exp16
-# from exp16 import binary_search
-# binary_search()
+# from exp16 import min_max
+# lst=map(int,input('Enter the numbers with spaces: ').split())
+# lst=[num for num in lst]
+# min_max(lst)
 
 #exp17
 # from exp17 import binary_search
