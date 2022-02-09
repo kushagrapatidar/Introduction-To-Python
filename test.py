@@ -26,15 +26,15 @@
 # print(f"Cross-Checking by OS library:\nFile Size is : {file_size} bytes")
 
 #exp6
-from exp6 import factorial
-num=int(input('Enter the number: '))
-Factorial=factorial(num)
-print(Factorial)
+# from exp6 import factorial
+# num=int(input('Enter the number: '))
+# Factorial=factorial(num)
+# print(Factorial)
 
 #exp7
-# from exp7 import fibonacci
-# num=int(input('Enter the number: '))
-# fibonacci(num)
+from exp7 import fibonacci
+num=int(input('Enter the number: '))
+fibonacci(num)
 
 #exp8
 # from exp8 import binary_search
