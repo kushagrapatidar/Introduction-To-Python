@@ -32,9 +32,9 @@
 # print(Factorial)
 
 #exp7
-from exp7 import fibonacci
+from exp7 import fibonacci_rec
 num=int(input('Enter the number: '))
-fibonacci(num)
+fibonacci_rec(num)
 
 #exp8
 # from exp8 import binary_search
