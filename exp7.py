@@ -20,5 +20,3 @@ def fibonacci_term(n):
     if n==2 or n==3:
         return 1
     return fibonacci_term(n-1)+fibonacci_term(n-2)
-
-fibonacci(89)
