@@ -55,7 +55,7 @@
 # filename=input('Enter the name of the file with extension: ')
 # readcharacters(filename)
 
-#exp12 Doubt..
+#exp12
 from exp12 import custom_font
 custom_font()
 
