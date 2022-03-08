@@ -32,9 +32,9 @@
 # print(Factorial)
 
 #exp7
-# from exp7 import fibonacci_rec
+# from exp7 import fibonacci
 # num=int(input('Enter the number: '))
-# fibonacci_rec(num)
+# fibonacci(num)
 
 #exp8
 # from exp8 import binary_search
@@ -56,8 +56,8 @@
 # readcharacters(filename)
 
 #exp12
-from exp12 import custom_font
-custom_font()
+# from exp12 import custom_font
+# custom_font()
 
 #exp13
 # from exp13 import even_length_words

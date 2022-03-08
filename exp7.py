@@ -14,6 +14,7 @@ def fibonacci_iter(n):
         print(i,end=" ")
         i=i+j
         i,j=j,i
+        
 def fibonacci_term(n):
     if n==1:
         return 0
