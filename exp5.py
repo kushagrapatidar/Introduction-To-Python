@@ -9,3 +9,4 @@ def getsize(filename):
             newlinecount+=1
     print(f'Number of lines: {newlinecount+1}')
     print(f"File Size is : {num_char+newlinecount} bytes")
+getsize(input())
