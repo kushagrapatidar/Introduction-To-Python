@@ -20,3 +20,4 @@ def binary_search():
         print(f"{n} not found in the array")
     else:
         print(f'{n} found at index: {index}')
+binary_search()
